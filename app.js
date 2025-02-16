@@ -14,4 +14,6 @@ function addTask() {
     
     item.appendChild(btn);
     list.appendChild(item);
+    document.getElementById('task-input').value = '';
+
 }
